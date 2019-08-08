@@ -44,9 +44,11 @@ All parameters are optional.
 * `:email`: Your e-mail address.
 * `:license`: License of the new project.
 * `:depends-on`: A list of dependencies.
+* `:test-lib`: specify the test framework to use. Default is Rove
 
 ## See Also
 - [Rove](https://github.com/fukamachi/rove) - Testing framework
+- While Rove is the default, other test frameworks can be added with i.e. `:test-lib "fiveam"`. 
 
 ## Author
 
